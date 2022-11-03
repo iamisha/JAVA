@@ -30,3 +30,12 @@ a. The automatic conversion of the wrapper class into it's corresponding primiti
 b. It is the reverse of the Autoboxing.
 c. It is wrapper to primitive.
 d. example program is in Unboxing.java file.
+
+# Strings in java are immutable(non-changeable)
+
+It means once you assign a value to the string variable and if you try to change it, it will not replace the old object but it will create the new object for us.
+
+# class and objects
+
+class: - prototype(design) of an object is class.
+object:- An instance of class is object.
