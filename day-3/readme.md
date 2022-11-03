@@ -8,5 +8,6 @@
 
 ---> Wrapper classes comes under the java.util package.
 
-Wrapper classes of the corresponding data types are in the below image :)
+---> Wrapper classes of the corresponding data types are in the below image :)
+
 ![CHEESE!](wrapperclass.jpeg)
