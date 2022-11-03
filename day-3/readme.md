@@ -11,3 +11,22 @@
 ---> Wrapper classes of the corresponding data types are in the below image :)
 
 ![CHEESE!](wrapperclass.jpeg)
+
+----> Wrapper class are of two different types
+
+1. Autoboxing
+2. Unboxing
+
+# 1. Autoboxing :-
+
+a. The automatic conversion of the primitive data types into it's corresponding wrapper class is known as the autoboxing.
+eg:- int to Integer, long to Long
+b. It is primitive to wrapper.
+c. example program is in Autoboxing.java file.
+
+# 2. Unboxing:-
+
+a. The automatic conversion of the wrapper class into it's corresponding primitive data type is known as the unboxing.
+b. It is the reverse of the Autoboxing.
+c. It is wrapper to primitive.
+d. example program is in Unboxing.java file.
