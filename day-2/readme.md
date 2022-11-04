@@ -58,6 +58,17 @@ A variable is a container that stores a value.These values can be changed during
 
 there are rules for declaring a variable name that are very common as we read in c and c++.
 
+There are three different types of the Java Variables which are:-
+
+1. instance variable:-
+   A variable which is declared inside the class and outside of all the method called instance variable.
+
+2. class variable or static variable:-
+   static variable is used when we have to use the common value for all the program. here we use the static keyword for that.i.e not unique for each object.Static variable belong to class not an individual object.
+
+3. local variable:-
+   A variable which is declared inside the body of the function or the method is called the class variable.
+
 # Literals
 
 A constant value which can be assigned to the variable is called as a literal.
