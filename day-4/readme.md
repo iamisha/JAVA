@@ -12,3 +12,9 @@ if we dont define the default constructor, compiler will automatically assign th
 A constructor throught which we can pass one or more parameters is called the parameterized constructor.
 
 ---> we can have more than one constructor in a class.
+
+# Copy constructor
+
+whenever we pass object reference to the constructor then it is called the copy constructor.
+
+it's main purpose is that it copies all the contents of one object to another object.
