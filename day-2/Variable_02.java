@@ -15,8 +15,8 @@ public class Variable_02 {
     }
 }
 /*
- * i'm expecting the output at first
+ * i'm expecting the output at first:-
  * many kumar many kumar
- * and at second
+ * and at second:-
  * hima kumar many kumar
  */
