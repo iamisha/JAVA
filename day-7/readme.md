@@ -17,3 +17,40 @@ access modifier in java has the following characteristics:-
 4. Working field of these modifier is shown in table below.
 
    ![CHEESE!](access-modifier.webp)
+
+# Types of java package
+
+Package is one of the feature of the feature of the java that arranges number of classes, interfaces and sub type of packages of same type into a particular group.
+
+# Types of Java Package
+
+1. Pre-defined/built in package // java API eg;- java.util.Scanner
+2. user defined package // custom package
+
+# Using a java package
+
+import java.lang.\* --> import everything from java.lang
+import java.lang.String --> import string form java.lang
+s = new Java.lang.String("API") --> Using without importing
+
+for reference see day-3 takingInput_03.java file
+
+# Question no. 2
+
+# Design a class called Computer. Each computer has a brand name, price and storage. Storage can be either SDD/HDD amd has a storage base. Also implement a method to print the detail of each computer.
+
+solution : - Answer_01.java
+
+# Example of Abstract class
+
+see Answer_02.java file.
+
+# Difference between Abstract class and Interface
+
+1. ---> Abstract class doesn't support multiple inheritance whereas
+   ---> Interface support multiple inheritance.
+2. ---> Abstract class can have final, non-final, static and non-static variables whereas
+   ---> Interface can have only static and final variables.
+
+3. ---> Abstract class can have private, protected, public and default members whereas
+   ---> All members are public by default.
