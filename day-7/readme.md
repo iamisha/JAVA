@@ -16,4 +16,4 @@ access modifier in java has the following characteristics:-
 
 4. Working field of these modifier is shown in table below.
 
-   ![CHEESE!](access-modifeir.webp)
+   ![CHEESE!](access-modifier.webp)
