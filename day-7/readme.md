@@ -45,6 +45,28 @@ solution : - Answer_01.java
 
 see Answer_02.java file.
 
+# Interface
+
+Interface is a group of functions that are abstract. It has following characteristics :-
+
+1. It is created using "Interface" keyword.
+2. Interface can be defined using "implements" keyword.
+3. The field in the interface are always public, final and static.
+4. Interface doesn't allow to use a constructor.
+5. Interface supports the multiple inheritance.
+6. Interface is used to provide the abstraction.
+7. SYNTAX:-
+   interface InterfaceName{
+   public void method1();
+   public void method2();
+   }
+8. IMPLEMENTATION:-
+   class ClassName implements InterfaceName{
+   //body of the class
+   }
+
+   Interface example: refer to Interface_Example.java
+
 # Difference between Abstract class and Interface
 
 1. ---> Abstract class doesn't support multiple inheritance whereas
@@ -54,3 +76,7 @@ see Answer_02.java file.
 
 3. ---> Abstract class can have private, protected, public and default members whereas
    ---> All members are public by default.
+4. ---> It can have both abstract and non-abstract method whereas Interface can have only abstract method.
+5. ---> Interface doesn't allow to declare a constructor whereas abstract class can declare a constructor.
+6. ---> Abstract class can provide implementation of interface whereas Interface can't provide implementation of abstract class.
+7. ---> Abstract class can extend from another class or from multiple interfaces whereas Interfaces can only extend from another interfaces.
