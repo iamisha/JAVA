@@ -1,4 +1,3 @@
-package learnJava;
 
 class Employee {
     String id, name;

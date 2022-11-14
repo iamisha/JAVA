@@ -1,5 +1,12 @@
 # Exceptons and file handling
 
+# Exception
+
+1. ---> It belongs to java.lang.Exception
+2. ---> It can occur at runtime and compile time both.
+3. ---> We can recover from Exception by using try-catch block or throwing exception back to the caller.
+4. ---> Exceptions are mainly caused by the application itself.
+
 # 1. Exception vs Error
 
 1. An exception is caused by our program whreas an error is not caused by our program (System error).
