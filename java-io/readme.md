@@ -16,9 +16,13 @@
 **InputStream class can be used to read the data from a data file.**
 
 **OutputStram class are used to write the data in a data file**
+
 a. Used to read and write data in a file.
+
 b. Prefer this when primitive datatype values are to be written.
+
 c. For character oriented data, it's prefer to use FileReder and FileWriter class
+
 d. For Byte oriented data, it's prefer to use FileOutputStram class and FileInputStream.
 
 **e.Now let's see how we can read bytes from the file using the FileInputStream**
