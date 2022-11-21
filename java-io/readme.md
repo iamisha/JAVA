@@ -50,6 +50,12 @@ b. They are character-oriented classes.
 # Java ByteArrayOutputStream class
 
 a. Used to write single data into multiple files.
+
 b. Data is written into byte array that can be written to the multiple streams.
 
 **c.Example program:- ["ByteArrayOutputStreamExam.java"]**
+Example no. 2 :- **["ByteArrayOutputStreamExam2.java"]**
+
+In the above example, we have created an array of bytes to store the data returned by the toByteArray() method.
+
+We then have used the for loop to access each byte from the array. Here, each byte is converted into the corresponding character using typecasting.
