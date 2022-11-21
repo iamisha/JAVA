@@ -24,7 +24,7 @@ class FileOutputStreamExam {
         System.out.println("Enter the string : ");
         String str = sc.nextLine();
         FileOutputStream fos = new FileOutputStream("java.txt", true);
-        byte[] b = str.getBytes();
+        byte[] b = str.getBytes(); // getBytes() method converts a string to an array
         fos.write(b);
         fos.close();
     }

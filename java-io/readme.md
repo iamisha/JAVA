@@ -10,6 +10,9 @@
 
 # FileInputStream and FileOutputStream class
 
+![CHEESE!](inputoutput.png)
+![CHEESE!](OutputStream.gif)
+
 **InputStream class can be used to read the data from a data file.**
 
 **OutputStram class are used to write the data in a data file**
@@ -31,3 +34,18 @@ g. FileOutputStrem class creates the new file for us if there is not present of 
 Solution see in **["ReadFromOneAndWriteInAnother.java"]** using FileInputStream/FileOutputStream
 
 Solution see in **["ReadFromOneAndWriteInAnother2.java"]** using FileReader/FileWriter
+
+# Java FileReader and FileWriter class
+
+a. Use to read and write the data from text file.
+b. They are character-oriented classes.
+
+**Example program of the java FileReader: - ["FileReaderExam.java"]**
+**Example program of the java FileWriter: - ["FileWriterExam.java]**
+
+# Java ByteArrayOutputStream class
+
+a. Used to write single data into multiple files.
+b. Data is written into byte array that can be written to the multiple streams.
+
+**c.Example program:- ["ByteArrayOutputStreamExam.java"]**
