@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 /*
  * class FileInputStreamExample {
  * public static void main(String[] args) {
@@ -36,13 +37,32 @@ import java.io.FileNotFoundException;
  * }
  * }
  */
+
+/*
+ * class FileInputStreamExample {
+ * public static void main(String[] args) throws IOException {
+ * File file = new File("myfle.txt");
+ * FileInputStream fis = new FileInputStream(file);
+ * int d;
+ * while ((d = fis.read()) != -1) {
+ * System.out.print((char) d);
+ * }
+ * }
+ * }
+ * 
+ */
+
 class FileInputStreamExample {
-    public static void main(String[] args) throws IOException {
-        File file = new File("myfle.txt");
-        FileInputStream fis = new FileInputStream(file);
-        int d;
-        while ((d = fis.read()) != -1) {
-            System.out.print((char) d);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string:- ");
+        String str = sc.nextLine();
+        try {
+            FileInputStream fis = new FileInputStream("book.txt");
+            byte[] b = str.getBytes();
+            fis.close();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
