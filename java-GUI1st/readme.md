@@ -1,9 +1,10 @@
 ![CHEESE!](isha11.jpg)
 
-There are two types of packaged used in java
+There are currently three sets of java APIs/packages for graphics programming.
 
 1.  AWT (Abstract Window Toolkit)
 2.  Swing
+3.  JavaFx
 
 #
 
@@ -69,3 +70,13 @@ There are two types of packaged used in java
 - Here, `ActionListener1.java` program file fulfils the following requirements :-
 
 ![CHEESE!](act22.png)
+
+- Here, `EventObject1st.java` program file fulfils the different tasks performed by the 2 different buttons.
+
+1. It fulfils the following requirements.
+
+![CHEESE!](2button.png)
+
+2. It's done using the EventObject class which is under the java.util package that holds the information about something that happened to it's source.
+
+3. Here, we use the Object getSource(), the object in which the the Event initially occurred.
