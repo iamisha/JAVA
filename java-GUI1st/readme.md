@@ -80,3 +80,23 @@ There are currently three sets of java APIs/packages for graphics programming.
 2. It's done using the EventObject class which is under the java.util package that holds the information about something that happened to it's source.
 
 3. Here, we use the Object getSource(), the object in which the the Event initially occurred.
+
+# Important question:- Create a swing GUI that contains two buttons add and substract and 3 textField, when the buttos are clicked, sum or difference of values of first two textField should be displayed in third textField.
+
+![CHEESE!](sumsubs.png)
+Answer- **<u>SumandSubsButton.java</u>** `using awt`
+
+![CHEESE!](button.png)
+Answer- **<u>SumandSubs.java</u>** `using swing`
+
+# Important question 2018 fall:- Create a graphics application to display Pokhara University with font 'Aerial', type 'bold', size '20' when a button is clicked with frame background CYAN.
+
+- using `awt`
+
+  refer **<u>PU.java</u>**
+
+  ![CHEESE!](clr.png)
+
+* using `swing`
+
+  refer **<u>PU1.java</u>**
