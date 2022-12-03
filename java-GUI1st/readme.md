@@ -59,7 +59,19 @@ There are currently three sets of java APIs/packages for graphics programming.
 
     c. It doesn't have maximize and minimize buttons.
 
-- Here, `First.java` and `Second.java` program file fulfils the following requirements :-
+
+                            ACTIONLISTENER INTERFACE
+
+- ActionListener in Java is an Interface that is responsible for handling action events such as when teh user clicks the Button.
+
+* The java ActionListener is notified whenever you click on the button or the menu button.
+
+* It is notified against ActionEvent.
+* ActionListener interface is found in java.awt.event package.
+* The class which process the ActionEvent should implement the interface ActionListener.
+* The object of the class must be registered using addActionListener(instanceoflistenerclassmethod) with a component.
+
+* Here, `First.java` and `Second.java` program file fulfils the following requirements :-
 
 ![CHEESE!](awt1st.png)
 
@@ -100,3 +112,11 @@ Answer- **<u>SumandSubs.java</u>** `using swing`
 * using `swing`
 
   refer **<u>PU1.java</u>**
+
+  ![CHEESE!](swing.png)
+
+  1. Another method to solve the above prblem....
+
+  - using anonymous class ===>**Controller.java**
+
+  * using outerclass ===> **Controller2.java**

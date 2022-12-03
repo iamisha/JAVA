@@ -25,8 +25,10 @@ public class PU1st extends JFrame implements ActionListener {
         t.setText(t.getText());
         Font font = new Font("Aerial", Font.BOLD, 20);
         t.setFont(font);
-        setBackground(Color.BLUE);
-
+        // setBackground(Color.BLUE); it doesn't chage the color
+        getContentPane().setBackground(Color.MAGENTA);
+        // The getContentPane() method retrieves the content pane layer so that you can
+        // add an object to it.
     }
 
     public static void main(String[] args) {
