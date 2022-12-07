@@ -4,7 +4,6 @@ import java.awt.TextField;
 import java.awt.Label;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import java.util.EventObject;
 
 public class EventObject1st extends Frame implements ActionListener {
     TextField t;

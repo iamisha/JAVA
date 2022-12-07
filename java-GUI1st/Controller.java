@@ -20,6 +20,16 @@ class PU2nd extends JFrame {
         add(t);
         add(b);
 
+        // ActionListener al = new ActionListener(){
+        // public static void actionPerformed(ActionEvent e){
+        // t.setText(t.getText());
+        // Font font = new Font("Aerial", Font.BOLD, 14);
+        // t.setFont(font);
+        // setBackground(Color.MAGENTA);
+
+        // }
+        // };
+        // b.addActionListener(al);
         b.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 t.setText(t.getText());

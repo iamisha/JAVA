@@ -62,7 +62,7 @@ There are currently three sets of java APIs/packages for graphics programming.
 
                             ACTIONLISTENER INTERFACE
 
-- ActionListener in Java is an Interface that is responsible for handling action events such as when teh user clicks the Button.
+- ActionListener in Java is an Interface that is responsible for handling action events such as when the user clicks the Button.
 
 * The java ActionListener is notified whenever you click on the button or the menu button.
 
@@ -118,5 +118,11 @@ Answer- **<u>SumandSubs.java</u>** `using swing`
   1. Another method to solve the above prblem....
 
   - using anonymous class ===>**Controller.java**
+
+  * => anonymous class is the class which doesn't have name, it's object only is created and all the implementation is written there.
+
+  * => we can not reuse the anonymnous class.
+
+  * => anonymous class is created only for one time use.
 
   * using outerclass ===> **Controller2.java**

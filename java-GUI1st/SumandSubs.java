@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-class SumandSubs extends Frame implements ActionListener {
+class SumandSubs extends JFrame implements ActionListener {
     JTextField t1, t2, t3;
     JButton b1, b2;
 
