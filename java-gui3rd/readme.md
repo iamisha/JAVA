@@ -32,3 +32,39 @@
 * **_output of the above program_** :-![CHEESE!](outputimg.png)
 
 * **Second example program of the windowlistener**:-**WindowExam2nd.java**
+
+# LayoutMangers
+
+- The LayoutManagers are used to arrange components in a particular manner.
+
+* Layoutmanager is an interface that is implementd by all the classes of layout mangers.
+* There are the following classes that represents teh layout mangers. 1. java.awt.BorderLayout(default layout of the frame)
+
+         2. java.awt.FlowLayout
+
+         3. java.awt.GridLayout
+
+         4. java.awt.CardLayout
+
+         5. java.awt.GridBagLayou
+
+         6. javax.swing.BoxLayout
+
+         7. javax.swing.GroupLayout
+
+         8. javax.swing.ScrollPanelLayout
+
+         9.javax.swing.SpringLayout
+
+  **1.java.awt.BorderLayout**
+
+* The BorderLayout is used to arrange the components in five region: north, south, east, west and center.
+* Each region(area) may contain one component only.
+* It is the default layout of the frame.
+
+  **Constructors of the BorderLayout class**
+
+  - BorderLayout(): creates a border layout but with no gaps between the components.
+  - BorderLayout(int horizont_gap, int vert_gap): creates a border layout with the given horizontal and vertical gaps between the components.
+
+  --<b>Example of BorderLayout class: USIING BorderLayout() construcotr</b>--
