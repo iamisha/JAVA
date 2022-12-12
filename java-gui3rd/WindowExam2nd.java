@@ -25,7 +25,7 @@ public class WindowExam2nd extends JFrame implements WindowListener, ActionListe
         String ip = JOptionPane.showInputDialog(null, "enter an integer value");
         int num = Integer.parseInt(ip);
         if (num % 2 == 0) {
-            JOptionPane.showMessageDialog(null, "even");
+            JOptionPane.showMessageDialog(null, "even", "EVEN-ODD", JOptionPane.WARNING_MESSAGE);
         } else {
             JOptionPane.showMessageDialog(null, "odd");
         }
