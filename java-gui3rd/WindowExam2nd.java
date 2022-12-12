@@ -24,11 +24,15 @@ public class WindowExam2nd extends JFrame implements WindowListener, ActionListe
     public void actionPerformed(ActionEvent e) {
         String ip = JOptionPane.showInputDialog(null, "enter an integer value");
         int num = Integer.parseInt(ip);
-        if (num % 2 == 0) {
-            JOptionPane.showMessageDialog(null, "even", "EVEN-ODD", JOptionPane.WARNING_MESSAGE);
-        } else {
-            JOptionPane.showMessageDialog(null, "odd");
-        }
+        // if (num % 2 == 0) {
+        // JOptionPane.showMessageDialog(null, "even", "EVEN-ODD",
+        // JOptionPane.WARNING_MESSAGE);
+        // } else {
+        JOptionPane.showMessageDialog(null, "odd");
+        // }
+
+        String res = (num % 2 == 0) ? "even" : "odd";
+        JOptionPane.showMessageDialog(null, res);
     }
 
     public void windowClosing(WindowEvent e) {
