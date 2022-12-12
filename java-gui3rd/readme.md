@@ -67,4 +67,6 @@
   - BorderLayout(): creates a border layout but with no gaps between the components.
   - BorderLayout(int horizont_gap, int vert_gap): creates a border layout with the given horizontal and vertical gaps between the components.
 
-  --<b>Example of BorderLayout class: USIING BorderLayout() construcotr</b>--
+  --<b>Example of BorderLayout class: USIING BorderLayout() construcotr:-**BorderLayoutExam.java**</b>--
+
+- Output of the BorderLayoutExam.java:- ![CHEESE!](mmg.png)
