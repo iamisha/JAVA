@@ -38,11 +38,13 @@
 - The LayoutManagers are used to arrange components in a particular manner.
 
 * Layoutmanager is an interface that is implementd by all the classes of layout mangers.
-* There are the following classes that represents teh layout mangers. 1. java.awt.BorderLayout(default layout of the frame)
+* There are the following classes that represents teh layout mangers.
 
-         2. java.awt.FlowLayout
+         1. java.awt.BorderLayout(default layout of the frame)
 
-         3. java.awt.GridLayout
+         2. java.awt.GridLayout
+
+         3. java.awt.FlowLayout
 
          4. java.awt.CardLayout
 
